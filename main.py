@@ -1,1 +1,1 @@
-print("Hola mundo")
+prinokjgit("Hola mundo")
