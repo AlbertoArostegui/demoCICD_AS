@@ -11,3 +11,9 @@ jobs:
 
       - name: Probar codigo
         run: python3 main.py
+
+      - name: Crear imagen Docekr
+        run: docker build -t holamundo .
+
+      - name: Probar imagen
+        run: docker run holamundo
